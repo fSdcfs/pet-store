@@ -1,0 +1,107 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF8DC; /* Soft background */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #FFDEAD;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+#hope h2 {
+    color: #8B4513;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+#hope p {
+    color: #8B4513;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Main Content */
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #FAEBD7;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+#ok {
+    text-align: left;
+    padding: 20px;
+}
+
+h3 {
+    color: #8B4513;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #654321;
+    line-height: 1.6;
+}
+
+/* Footer Styling */
+footer {
+    background: #FFDEAD;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer h3 {
+    font-size: 24px;
+    color: #8B4513;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 18px;
+    color: #654321;
+}
+
+/* Smooth Transition Effects */
+header, main, footer {
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+header:hover, main:hover, footer:hover {
+    transform: scale(1.02);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
